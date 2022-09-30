@@ -9,7 +9,7 @@
     if ($number_1 >100 or $number_2 > 100){
       echo "Numbers must be between 1 and 100";
     }elseif($number_1 == 0 or $number_2 == 0){
-      echo "nervebi momishale";
+      return false;
     }else{
         echo ($number_1 * $number_2);
   }
